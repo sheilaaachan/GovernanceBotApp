@@ -27,6 +27,12 @@ p.lead{
   margin-top: 80px;
   min-height: 200px;
 }
-#NewInvoiceButton{
+/*#NewInvoiceButton{
   float: right;
+}*/
+
+span.invoiceDate{
+  font-size: .9em;
+  color: #adadad;
+  font-style: italic;
 }

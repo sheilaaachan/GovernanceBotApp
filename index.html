@@ -16,7 +16,8 @@
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
           <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+          <a href="index.html"><h3>HOME</h3></a>
+          <a class="btn btn-primary btn-lg" href="invoiceForm.html" role="button" aria-disabled="true" id="NewInvoiceButton">+ Add a New Invoice</a>
         </div>
       </div>
       <nav class="navbar fixed-top navbar-dark bg-dark">
@@ -29,7 +30,13 @@
         <h2 class="display-4">All Invoices</h2>
         <p class="lead">Click on the button to add a new invoice.</p>
         <hr class="my-4">
-        <a class="btn btn-primary btn-lg" href="invoiceForm.html" role="button" aria-disabled="true" id="NewInvoiceButton">+ Add a New Invoice</a>
+        <ul class="list-group">
+          <li class="list-group-item">National Oilwell Varco <span class="invoiceDate">22 Jan</span></li>
+          <li class="list-group-item">National Oilwell Varco <span class="invoiceDate">25 Jan</span></li>
+          <li class="list-group-item">Halliburton <span class="invoiceDate">25 Jan</span></li>
+          <li class="list-group-item">Halliburton <span class="invoiceDate">25 Jan</span></li>
+          <li class="list-group-item">National Oilwell Varco <span class="invoiceDate">25 Jan</span></li>
+        </ul>
       </div>
       <script>
         // Example starter JavaScript for disabling form submissions if there are invalid fields
