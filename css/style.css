@@ -23,3 +23,10 @@ p.lead{
   font-style: italic;
   text-align: center;
 }
+#NewInvoiceContain{
+  margin-top: 80px;
+  min-height: 200px;
+}
+#NewInvoiceButton{
+  float: right;
+}
